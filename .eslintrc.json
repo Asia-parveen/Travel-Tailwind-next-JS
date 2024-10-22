@@ -1,3 +1,30 @@
+// {
+//   "extends": ["next/core-web-vitals", "next/typescript"],
+
+//   "rules": {
+//     "@typescript-eslint/no-empty-interface": "off"
+//   }
+// }
+
+
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "parser": "@typescript-eslint/parser", // Use TypeScript parser
+  "extends": [
+    "eslint:recommended", // Recommended rules from ESLint
+    "plugin:@typescript-eslint/recommended" // Recommended rules from TypeScript ESLint plugin
+  ],
+  "rules": {
+    "@typescript-eslint/no-empty-interface": "off" // Disable the empty interface rule
+  },
+  "settings": {
+    "react": {
+      "version": "detect" // Automatically detect the react version
+    }
+  }
 }
+
+
+
+ 
+
+
