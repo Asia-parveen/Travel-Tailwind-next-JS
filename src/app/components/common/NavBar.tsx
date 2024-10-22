@@ -22,6 +22,7 @@ function NavBar() {
               src="/images/logo.png"
               alt="logo"
               width={100} 
+              height={100}
             />
           </div>
           <div className="flex gap-[20px] xl:gap-[50px] text-[16px] items-center select-none">
@@ -57,6 +58,7 @@ function NavBar() {
                   src="/images/chevron-down.png"
                   alt="chevron down"
                   width={20} 
+                  height={20}
                 />
               </div>
             </div>

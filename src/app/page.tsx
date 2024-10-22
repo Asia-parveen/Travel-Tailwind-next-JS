@@ -65,7 +65,7 @@ export default function Home() {
         <Hero />
 
         <div className="absolute top-0 right-0 -z-10">
-          <Image src="/images/pinkshape.png" alt="blob background shape" width="650" height="250"/>
+          <Image src="/images/pinkshape.png" alt="blob background shape" width={650} height={250}/>
         </div>
         <div className="absolute top-0 left-0 -z-10">
           <Image src="/images/Ellipse 8.png" alt="Ellipse background shape" width={200} height={300}/>

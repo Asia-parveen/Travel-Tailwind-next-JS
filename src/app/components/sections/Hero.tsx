@@ -18,8 +18,8 @@ function Hero() {
                 src="/images/stylish-underline.png"
                 alt="stylish underline"
                 className="-mt-4 z-0 hidden md:block"
-                width={300} // Adjust width as needed
-                height={20} // Adjust height as needed
+                width={300} 
+                height={20} 
               />
             </div>
           </div>
