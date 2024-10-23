@@ -1,5 +1,5 @@
-import React from "react";
-import Image from "next/image"; 
+import React from 'react';
+import Image from 'next/image';
 
 interface IProps {
   imageUrl: string;
@@ -20,8 +20,8 @@ function TestimonialCard({
     <div
       className={`p-8 rounded-slight  bg-white max-w-[31.5rem] ${
         isBackdrop
-          ? "shadow-none border-[2px] border-[#F7F7F7]"
-          : "shadow-lg mr-8"
+          ? 'shadow-none border-[2px] border-[#F7F7F7]'
+          : 'shadow-lg mr-8'
       }`}
     >
       <div className="relative">
@@ -37,8 +37,8 @@ function TestimonialCard({
             <Image
               src={imageUrl}
               alt="reviewer photo"
-              width={68} 
-              height={68} 
+              width={68}
+              height={68}
               className="w-[4.25rem] h-[4.25rem] rounded-full"
             />
           )}
@@ -49,10 +49,6 @@ function TestimonialCard({
 }
 
 export default TestimonialCard;
-
-
-
-
 
 // import React from "react";
 

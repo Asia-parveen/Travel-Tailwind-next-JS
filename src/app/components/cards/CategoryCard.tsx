@@ -1,5 +1,5 @@
-import React from "react";
-import Image from "next/image";
+import React from 'react';
+import Image from 'next/image';
 
 interface IProps {
   iconUrl: string;
@@ -12,14 +12,14 @@ function CategoryCard({ iconUrl, title, description, highlighted }: IProps) {
   return (
     <div
       className={`flex relative flex-col gap-4 items-center p-[2.5rem] ${
-        highlighted ? "bg-white shadow-md rounded-[2.5rem]" : ""
+        highlighted ? 'bg-white shadow-md rounded-[2.5rem]' : ''
       }`}
     >
       <div>
-        <Image 
-          src={iconUrl} 
-          alt="category card icon" 
-          className="h-[80px]" 
+        <Image
+          src={iconUrl}
+          alt="category card icon"
+          className="h-[80px]"
           width={80} // Specify width
           height={80} // Specify height
         />
@@ -28,9 +28,9 @@ function CategoryCard({ iconUrl, title, description, highlighted }: IProps) {
       <p className="text-lightGray text-[1rem] font-bold">{description}</p>
       {highlighted && (
         <div className="absolute -bottom-8 -left-10 -z-10">
-          <Image 
-            src="/images/redshape.png" 
-            alt="rectangle shape" 
+          <Image
+            src="/images/redshape.png"
+            alt="rectangle shape"
             width={200} // Specify width
             height={100} // Specify height
           />
@@ -41,8 +41,6 @@ function CategoryCard({ iconUrl, title, description, highlighted }: IProps) {
 }
 
 export default CategoryCard;
-
-
 
 // import React from "react";
 

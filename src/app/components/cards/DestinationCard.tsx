@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 interface IProps {
   imageUrl: string;
@@ -46,12 +46,6 @@ function DestinationCard({
 }
 
 export default DestinationCard;
-
-
-
-
-
-
 
 // import React from "react";
 
@@ -101,5 +95,3 @@ export default DestinationCard;
 // }
 
 // export default DestinationCard;
-
-

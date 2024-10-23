@@ -1,24 +1,24 @@
-import React from "react";
-import Image from "next/image"; // Import Image from next/image
-import TestimonialCard from "../cards/TestimonialCard";
+import React from 'react';
+import Image from 'next/image'; // Import Image from next/image
+import TestimonialCard from '../cards/TestimonialCard';
 
 function TestimonialSection() {
   const reviews = [
     {
       id: 0,
-      imageUrl: "/images/man.png",
-      reviewerName: "Mike taylor",
-      position: "Lahore, Pakistan",
+      imageUrl: '/images/man.png',
+      reviewerName: 'Mike taylor',
+      position: 'Lahore, Pakistan',
       review:
-        "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.",
+        'On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.',
     },
     {
       id: 2,
-      imageUrl: "/images/man.png",
-      reviewerName: "Chris Thomas",
-      position: "CEO of Red Button",
+      imageUrl: '/images/man.png',
+      reviewerName: 'Chris Thomas',
+      position: 'CEO of Red Button',
       review:
-        "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.",
+        'On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.',
     },
   ];
   return (
@@ -85,12 +85,6 @@ function TestimonialSection() {
 }
 
 export default TestimonialSection;
-
-
-
-
-
-
 
 // import React from "react";
 // import TestimonialCard from "../cards/TestimonialCard";

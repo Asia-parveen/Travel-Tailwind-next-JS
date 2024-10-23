@@ -1,14 +1,14 @@
-import React from "react";
-import { Input } from "../ui/input";
-import MainButton from "../common/MainButton";
-import Image from "next/image"; // Importing the Image component
+import React from 'react';
+import { Input } from '../ui/input';
+import MainButton from '../common/MainButton';
+import Image from 'next/image'; // Importing the Image component
 
 function NewsLetterSection() {
   return (
     <div className="bg-[#DFD7F9] p-[4rem] rounded-[1.25rem] rounded-tl-extraLarge relative lg:-mt-[10rem]">
       <div className="z-20">
         <p className="text-lightGray text-[1.5rem] font-[600] text-center mb-[2.63rem]">
-          Subscribe to get information, latest news and other{" "}
+          Subscribe to get information, latest news and other{' '}
           <br className="hidden md:block" /> interesting offers about Jadoo
         </p>
 
@@ -47,7 +47,12 @@ function NewsLetterSection() {
       </div>
 
       <div className="absolute -top-4 -right-4">
-        <Image src="/images/bluarrow.png" alt="send icon" width={48} height={48} />
+        <Image
+          src="/images/bluarrow.png"
+          alt="send icon"
+          width={48}
+          height={48}
+        />
       </div>
 
       <div className="absolute top-0 right-0 opacity-25">
@@ -60,16 +65,18 @@ function NewsLetterSection() {
       </div>
 
       <div className="absolute -bottom-16 right-[-6rem] hidden md:block">
-        <Image src="/images/plusbg.png" alt="send icon" width={200} height={200} />
+        <Image
+          src="/images/plusbg.png"
+          alt="send icon"
+          width={200}
+          height={200}
+        />
       </div>
     </div>
   );
 }
 
 export default NewsLetterSection;
-
-
-
 
 // import React from "react";
 // import { Input } from "../ui/input";

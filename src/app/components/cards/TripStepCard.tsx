@@ -1,5 +1,5 @@
-import React from "react";
-import Image from "next/image"; // Import Image from Next.js
+import React from 'react';
+import Image from 'next/image'; // Import Image from Next.js
 
 interface IProps {
   iconUrl: string;
@@ -14,7 +14,7 @@ function TripStepCard({ iconUrl, title, description }: IProps) {
         <Image
           src={iconUrl}
           alt="step icon"
-          width={50}  // Adjust the width based on the icon size
+          width={50} // Adjust the width based on the icon size
           height={50} // Adjust the height based on the icon size
         />
       </div>
@@ -27,8 +27,6 @@ function TripStepCard({ iconUrl, title, description }: IProps) {
 }
 
 export default TripStepCard;
-
-
 
 // import React from "react";
 

@@ -1,13 +1,10 @@
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
 // import localFont from "next/font/local";
 import { Poppins, Volkhov } from 'next/font/google';
-import "./globals.css";
+import './globals.css';
 
-const poppins = Poppins({ subsets: ['latin'], weight: ["400","600"]});
-const volkhov = Volkhov({ subsets: ['latin'], weight: ["400","700"]});
-
-
-
+const poppins = Poppins({ subsets: ['latin'], weight: ['400', '600'] });
+const volkhov = Volkhov({ subsets: ['latin'], weight: ['400', '700'] });
 
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
@@ -21,8 +18,8 @@ const volkhov = Volkhov({ subsets: ['latin'], weight: ["400","700"]});
 // });
 
 export const metadata: Metadata = {
-  title: "figma-website",
-  description: "figma next app",
+  title: 'figma-website',
+  description: 'figma next app',
 };
 
 export default function RootLayout({
@@ -32,10 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={[poppins.className,volkhov.className].toString()}
-      >
-      
+      <body className={[poppins.className, volkhov.className].toString()}>
         {children}
       </body>
     </html>

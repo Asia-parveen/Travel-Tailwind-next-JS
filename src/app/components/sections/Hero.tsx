@@ -1,6 +1,6 @@
-import React from "react";
-import Image from "next/image"; // Import Image from Next.js
-import MainButton from "../common/MainButton";
+import React from 'react';
+import Image from 'next/image'; // Import Image from Next.js
+import MainButton from '../common/MainButton';
 
 function Hero() {
   return (
@@ -18,8 +18,8 @@ function Hero() {
                 src="/images/stylish-underline.png"
                 alt="stylish underline"
                 className="-mt-4 z-0 hidden md:block"
-                width={300} 
-                height={20} 
+                width={300}
+                height={20}
               />
             </div>
           </div>

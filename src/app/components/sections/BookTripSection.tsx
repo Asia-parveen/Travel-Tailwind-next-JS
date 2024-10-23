@@ -1,29 +1,29 @@
-import React from "react";
-import TripStepCard from "../cards/TripStepCard";
-import Image from "next/image"; // Import Image from Next.js
+import React from 'react';
+import TripStepCard from '../cards/TripStepCard';
+import Image from 'next/image'; // Import Image from Next.js
 
 function BookTripSection() {
   const steps = [
     {
       id: 0,
-      iconUrl: "/images/yelloicon.png",
-      title: "Choose Destination",
+      iconUrl: '/images/yelloicon.png',
+      title: 'Choose Destination',
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. ",
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. ',
     },
     {
       id: 1,
-      iconUrl: "/images/redicon.png",
-      title: "Make Payment",
+      iconUrl: '/images/redicon.png',
+      title: 'Make Payment',
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. ",
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. ',
     },
     {
       id: 2,
-      iconUrl: "/images/bluicon.png",
-      title: "Reach Airport on Selected Date",
+      iconUrl: '/images/bluicon.png',
+      title: 'Reach Airport on Selected Date',
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. ",
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. ',
     },
   ];
   return (
@@ -51,7 +51,7 @@ function BookTripSection() {
         <Image
           src="/images/redlady.png"
           alt="card with a girl on a wall"
-          width={500}  // Adjust the width based on the image dimensions
+          width={500} // Adjust the width based on the image dimensions
           height={500} // Adjust the height based on the image dimensions
         />
       </div>
@@ -60,9 +60,6 @@ function BookTripSection() {
 }
 
 export default BookTripSection;
-
-
-
 
 // import React from "react";
 // import TripStepCard from "../cards/TripStepCard";

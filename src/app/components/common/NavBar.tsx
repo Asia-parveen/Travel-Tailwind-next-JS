@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import { X } from "lucide-react";
-import Link from "next/link";
-import MainButton from "./MainButton";
-import Image from "next/image"; // Import the Image component from Next.js
+import { useState } from 'react';
+import { X } from 'lucide-react';
+import Link from 'next/link';
+import MainButton from './MainButton';
+import Image from 'next/image'; // Import the Image component from Next.js
 
 function NavBar() {
   const [menu, setMenu] = useState(false);
@@ -18,12 +18,7 @@ function NavBar() {
       <div className="hidden md:block animate-in fade-in zoom-in p-4">
         <div className="flex justify-between items-center">
           <div>
-            <Image
-              src="/images/logo.png"
-              alt="logo"
-              width={100} 
-              height={100}
-            />
+            <Image src="/images/logo.png" alt="logo" width={100} height={100} />
           </div>
           <div className="flex gap-[20px] xl:gap-[50px] text-[16px] items-center select-none">
             <p className="hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2">
@@ -57,7 +52,7 @@ function NavBar() {
                 <Image
                   src="/images/chevron-down.png"
                   alt="chevron down"
-                  width={20} 
+                  width={20}
                   height={20}
                 />
               </div>
@@ -65,11 +60,11 @@ function NavBar() {
           </div>
         </div>
       </div>
-      
+
       {/* MOBILE */}
       <div
         className={`block lg:hidden shadow-sm fixed top-0 w-full z-[999] py-4 animate-in fade-in zoom-in ${
-          menu ? "bg-primary py-2" : "bg-white"
+          menu ? 'bg-primary py-2' : 'bg-white'
         }`}
       >
         <div className="flex justify-between mx-[10px]">
@@ -77,8 +72,8 @@ function NavBar() {
             <Image
               src="/images/logo.png"
               alt="logo"
-              width={80} 
-              height={40} 
+              width={80}
+              height={40}
               className="w-[7rem]"
             />
           </div>
@@ -136,8 +131,8 @@ function NavBar() {
                     <Image
                       src="/images/chevron-down.png"
                       alt="chevron down"
-                      width={20} 
-                      height={20} 
+                      width={20}
+                      height={20}
                     />
                   </div>
                 </div>
@@ -151,10 +146,6 @@ function NavBar() {
 }
 
 export default NavBar;
-
-
-
-
 
 // "use client";
 
@@ -310,8 +301,6 @@ export default NavBar;
 
 // export default NavBar;
 
-
-
 // "use client";
 
 // import { useState } from "react";
@@ -329,8 +318,8 @@ export default NavBar;
 //     <div className="md:sticky md:top-0   md:shadow-none z-20 ">
 //       {/* DESKTOP */}
 //       <div
-//         className=" hidden lg:block animate-in fade-in zoom-in  p-4"> 
-     
+//         className=" hidden lg:block animate-in fade-in zoom-in  p-4">
+
 //         <div className="flex justify-between items-center">
 //           <div>
 //             <img src="/images/logo.png" alt="logo" />

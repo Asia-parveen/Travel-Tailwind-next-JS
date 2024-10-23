@@ -1,30 +1,30 @@
-import React from "react";
-import DestinationCard from "../cards/DestinationCard";
+import React from 'react';
+import DestinationCard from '../cards/DestinationCard';
 
 function TopSellingSection() {
   const destinations = [
     {
       id: 0,
-      imageUrl: "/images/destinew1.png",
-      title: "Rome, Italy",
-      amount: "$5.42k",
-      duration: "10 Days Trip",
+      imageUrl: '/images/destinew1.png',
+      title: 'Rome, Italy',
+      amount: '$5.42k',
+      duration: '10 Days Trip',
       highlighted: false,
     },
     {
       id: 1,
-      imageUrl: "/images/destinew2.png",
-      title: "London, UK",
-      amount: "$4.2k",
-      duration: "12 Days Trip",
+      imageUrl: '/images/destinew2.png',
+      title: 'London, UK',
+      amount: '$4.2k',
+      duration: '12 Days Trip',
       highlighted: false,
     },
     {
       id: 2,
-      imageUrl: "/images/destinew3.png",
-      title: "Full Europe",
-      amount: "$15k",
-      duration: "28 Days Trip",
+      imageUrl: '/images/destinew3.png',
+      title: 'Full Europe',
+      amount: '$15k',
+      duration: '28 Days Trip',
       highlighted: true,
     },
   ];
@@ -54,9 +54,6 @@ function TopSellingSection() {
 }
 
 export default TopSellingSection;
-
-
-
 
 // import React from "react";
 // import DestinationCard from "../cards/DestinationCard";
@@ -105,7 +102,7 @@ export default TopSellingSection;
 //             duration={destination.duration}
 //             amount={destination.amount}
 //             highlighted={destination.highlighted}
-            
+
 //           />
 //         ))}
 //       </div>

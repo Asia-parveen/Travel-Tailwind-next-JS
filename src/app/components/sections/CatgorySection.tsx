@@ -1,38 +1,38 @@
-import React from "react";
-import CategoryCard from "../cards/CategoryCard";
+import React from 'react';
+import CategoryCard from '../cards/CategoryCard';
 
 function CategorySection() {
   const features = [
     {
       id: 0,
-      iconUrl: "/images/dish.png",
-      title: "Calculated Weather",
+      iconUrl: '/images/dish.png',
+      title: 'Calculated Weather',
       description:
-        "Built Wicket longer admire do barton vanity itself do in it.",
+        'Built Wicket longer admire do barton vanity itself do in it.',
       highlighted: false,
     },
     {
       id: 1,
-      iconUrl: "/images/plan.png",
-      title: "Best Flights",
+      iconUrl: '/images/plan.png',
+      title: 'Best Flights',
       description:
-        "Engrossed listening. Park gate sell they west hard for the.",
+        'Engrossed listening. Park gate sell they west hard for the.',
       highlighted: true,
     },
     {
       id: 2,
-      iconUrl: "/images/mike.png",
-      title: "Local Events",
+      iconUrl: '/images/mike.png',
+      title: 'Local Events',
       description:
-        "Barton vanity itself do in it. Preferd to men it engrossed listening.",
+        'Barton vanity itself do in it. Preferd to men it engrossed listening.',
       highlighted: false,
     },
     {
       id: 3,
-      iconUrl: "/images/tyre.png",
-      title: "Customization",
+      iconUrl: '/images/tyre.png',
+      title: 'Customization',
       description:
-        "We deliver outsourced aviation services for military customers",
+        'We deliver outsourced aviation services for military customers',
       highlighted: false,
     },
   ];
@@ -60,9 +60,6 @@ function CategorySection() {
 }
 
 export default CategorySection;
-
-
-
 
 // import React from "react";
 // import CatergoryCard from "../cards/CategoryCard";

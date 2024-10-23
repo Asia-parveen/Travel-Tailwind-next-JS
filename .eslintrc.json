@@ -7,21 +7,53 @@
 // }
 
 
+// {
+//   "parser": "@typescript-eslint/parser", 
+//   "extends": [
+//     "eslint:recommended", 
+//     "plugin:@typescript-eslint/recommended" 
+//   ],
+//   "rules": {
+//     "@typescript-eslint/no-empty-interface": "off" 
+//   },
+//   "settings": {
+//     "react": {
+//       "version": "detect" 
+//     }
+//   }
+
+
+// }
 {
-  "parser": "@typescript-eslint/parser", // Use TypeScript parser
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
   "extends": [
-    "eslint:recommended", // Recommended rules from ESLint
-    "plugin:@typescript-eslint/recommended" // Recommended rules from TypeScript ESLint plugin
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:prettier/recommended"
   ],
   "rules": {
-    "@typescript-eslint/no-empty-interface": "off" // Disable the empty interface rule
+    "@typescript-eslint/no-empty-interface": "off",
+    "react/prop-types": "off",
+    "prettier/prettier": ["error", { "singleQuote": true, "endOfLine": "auto" }]
   },
   "settings": {
     "react": {
-      "version": "detect" // Automatically detect the react version
+      "version": "detect"
     }
   }
 }
+
+
 
 
 
