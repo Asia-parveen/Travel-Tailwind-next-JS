@@ -18,7 +18,7 @@ function NavBar() {
       <div className="hidden md:block animate-in fade-in zoom-in p-4">
         <div className="flex justify-between items-center">
           <div>
-            <Image src="/images/logo.png" alt="logo" width={100} height={100} />
+            <Image src="/images/Logo.png" alt="logo" width={100} height={100} />
           </div>
           <div className="flex gap-[20px] xl:gap-[50px] text-[16px] items-center select-none">
             <p className="hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2">
