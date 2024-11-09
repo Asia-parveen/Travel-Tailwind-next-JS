@@ -22,16 +22,16 @@ function NavBar() {
           </div>
           <div className="flex gap-[20px] xl:gap-[50px] text-[16px] items-center select-none">
             <p className="hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2">
-              Destinations
+            Destinations
             </p>
             <p className="hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2">
-              Hotels
+             <Link href="/hotel">Hotels</Link>
             </p>
             <p className="hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2">
-              Flights
+            <Link href="/flight">Flights</Link>
             </p>
             <p className="hover:text-primary text-navText font-[600] cursor-pointer flex items-center gap-2">
-              Bookings
+            <Link href="/booking">Bookings</Link>
             </p>
 
             <Link
