@@ -16,6 +16,7 @@ function NewsLetterSection() {
           <div className="relative flex-grow z-[10]">
             <Input
               type="email"
+              name="name"
               placeholder="Your email"
               className="bg-white h-[3.5rem] pl-[3rem]"
             />
