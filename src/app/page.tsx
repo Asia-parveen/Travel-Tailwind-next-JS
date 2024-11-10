@@ -46,7 +46,7 @@
 // }
 
 import React from 'react';
-// import NavBar from './components/common/NavBar';
+import NavBar from './components/common/NavBar';
 import Hero from './components/sections/Hero';
 import CatgorySection from './components/sections/CatgorySection';
 import TopSellingSection from './components/sections/TopSellingSection';
@@ -60,7 +60,7 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <main className="relative poppins  md:px-[9rem]">
-      {/* <NavBar /> */}
+      <NavBar /> 
       <div className="px-4 flex flex-col gap-[7.69rem]">
         <Hero/>
 

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 // import localFont from "next/font/local";
 import { Poppins, Volkhov } from 'next/font/google';
 import './globals.css';
-import NavBar from './components/common/NavBar';
+
 import FooterSection from './components/sections/FooterSection';
 
 const poppins = Poppins({ subsets: ['latin'], weight: ['400', '600'] });
@@ -32,9 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={[poppins.className, volkhov.className].toString()}>
-      <main className="relative poppins  md:px-[9rem]">
-      <NavBar/>
-      </main>
+     
      
         {children}
         <main className="relative poppins px-[1rem]  md:px-[9rem] pt-[8rem]">

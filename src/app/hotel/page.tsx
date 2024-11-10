@@ -3,10 +3,14 @@ import Image from 'next/image';
 import CategorySection from '../components/sections/CatgorySection';
 import BookTripSection from '../components/sections/BookTripSection';
 import TestimonialSection from '../components/sections/TestimonialSection';
+import NavBar from '../components/common/NavBar';
 
 const HotelPage = () => {
   return (
     <>
+      <div className="relative poppins  md:px-[9rem]">
+      <NavBar/>
+      </div>
          <div className="relative pt-[8rem] px-[9rem]">
           <CategorySection />
           <div className="absolute top-0 right-0">
